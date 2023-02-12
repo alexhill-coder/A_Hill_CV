@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/A_Hill_CV/static/css/main.7862ae96.css",
+    "main.js": "/A_Hill_CV/static/js/main.17e78180.js",
+    "static/js/787.557f5518.chunk.js": "/A_Hill_CV/static/js/787.557f5518.chunk.js",
+    "static/media/portrait.png": "/A_Hill_CV/static/media/portrait.587f127dc55add39b3c2.png",
+    "static/media/intro_to_object_python.jpeg": "/A_Hill_CV/static/media/intro_to_object_python.0358037f949525f7d8be.jpeg",
+    "static/media/web_scraping.jpeg": "/A_Hill_CV/static/media/web_scraping.c5f90724d7bd9d77377d.jpeg",
+    "static/media/kivy_app.jpeg": "/A_Hill_CV/static/media/kivy_app.eb3b49897afc8a47f7f7.jpeg",
+    "static/media/first_responsive_website.jpeg": "/A_Hill_CV/static/media/first_responsive_website.1d542d6d7424489dbd92.jpeg",
+    "static/media/reading_data_from_apis.jpeg": "/A_Hill_CV/static/media/reading_data_from_apis.597179379ba2b9133cef.jpeg",
+    "static/media/python_programming.jpg": "/A_Hill_CV/static/media/python_programming.e4630eb2e4c0eea43268.jpg",
+    "index.html": "/A_Hill_CV/index.html",
+    "main.7862ae96.css.map": "/A_Hill_CV/static/css/main.7862ae96.css.map",
+    "main.17e78180.js.map": "/A_Hill_CV/static/js/main.17e78180.js.map",
+    "787.557f5518.chunk.js.map": "/A_Hill_CV/static/js/787.557f5518.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7862ae96.css",
+    "static/js/main.17e78180.js"
+  ]
+}
