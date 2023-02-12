@@ -7,14 +7,15 @@ function Experience(props) {
     // Creates a list using the highlights array of the work experience section of the resume object.
     function createList(list) {
         return (
-        <li>{list}</li>
+        <li key={list.id}>{list.content}</li>
         )
     }
 
     return (
 
-        <div key={props.id}>
-            <Card.Text>
+        <div>
+            {props.source === "" ? null : <Card.Img className='education mt-5 mb-4' src={props.source} alt={props.alt}/>}
+            <Card.Text className={props.source === "" ? "mt-5" : ""}>
                 <b>{props.position}, {props.name}</b>
             </Card.Text>
             <Card.Text>

@@ -14,15 +14,15 @@ function Fulldetails() {
   // Provides all the information neccessary to create an item from the work experience section.
   function createWorkExperience(list) {
     return (
-    <Experience id={list.id} name={list.name} position={list.position} startDate={list.startDate} 
-    endDate={list.endDate} summary={list.summary} highlights={list.highlights}/>
+    <Experience key={list.id} id={list.id} name={list.name} position={list.position} startDate={list.startDate} 
+    endDate={list.endDate} summary={list.summary} highlights={list.highlights} source={list.url} alt={list.alt}/>
     )
   }
 
   // Provides all the information neccessary to create an item from the education section.
   function createEducation(list) {
     return (
-    <Education id={list.id} area={list.area} institution={list.institution} startDate={list.startDate} 
+    <Education key={list.id} id={list.id} area={list.area} institution={list.institution} startDate={list.startDate} 
     endDate={list.endDate} details={list.details} highlights={list.highlights} source={list.url} alt={list.alt}/>
     )
   }
@@ -31,7 +31,7 @@ function Fulldetails() {
   function createCertificate(list) {
     return (
 
-      <a href={list.webAddress}>
+      <a key={list.id} href={list.webAddress}>
       <Card.Img className="certificateImage" variant="top" src={list.url} alt={list.name}/>
       </a>
 
@@ -41,7 +41,7 @@ function Fulldetails() {
   // Provides all the information neccessary to create an image from the skills section.
   function createSkills(list) {
     return (
-    <Skills id={list.id} source={list.source} alt={list.alt}/>
+    <Skills key={list.id} id={list.id} source={list.source} alt={list.alt} name={list.name}/>
     )
   }
 
@@ -50,25 +50,25 @@ function Fulldetails() {
     <div>
         <Card>
             <Card.Body>
-                <Card.Title><i class="fa fa-user-circle" aria-hidden="true"></i>  About</Card.Title>
+                <Card.Title><i className="fa fa-user-circle" aria-hidden="true"></i>  About</Card.Title>
                 <hr/>
                 <Card.Text>
                     {resumeDetails.basics.summary}
                 </Card.Text>
-                <Card.Title className='mt-5'><i class="fa fa-code" aria-hidden="true"></i>  Skills</Card.Title>
+                <Card.Title className='mt-5'><i className="fa fa-code" aria-hidden="true"></i>  Skills</Card.Title>
                 <hr/>
                 {/* As these sections are likerly to change they were created with the intention of using map functions to
                 build sections based off the information in the resumedetails object. */}
                 <div className='iconGrid'>
                     {resumeDetails.skills.map(createSkills)}
                 </div>
-                <Card.Title className='mt-5'><i class="fa fa-building-o" aria-hidden="true"></i>  Work Experience</Card.Title>
+                <Card.Title className='mt-5'><i className="fa fa-building-o" aria-hidden="true"></i>  Work Experience</Card.Title>
                 <hr/>
                 {resumeDetails.work.map(createWorkExperience)}
-                <Card.Title className='mt-5'><i class="fa fa-graduation-cap" aria-hidden="true"></i>  Education</Card.Title>
+                <Card.Title className='mt-5'><i className="fa fa-graduation-cap" aria-hidden="true"></i>  Education</Card.Title>
                 <hr/>
                 {resumeDetails.education.map(createEducation)}
-                <Card.Title className='mt-5'><i class="fa fa-certificate" aria-hidden="true"></i>  Certificates</Card.Title>
+                <Card.Title className='mt-5'><i className="fa fa-certificate" aria-hidden="true"></i>  Certificates</Card.Title>
                 <hr/>
                 <div className='certificate'>
                   {resumeDetails.certificates.map(createCertificate)}
