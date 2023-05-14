@@ -8,7 +8,7 @@ import certificate14 from '../../images/Learn_PHP_Multi_Course.jpeg';
 import certificate13 from '../../images/Learn_PHP_Form_Handling.jpeg';
 import certificate12 from '../../images/Learn_PHP_Objects_&_Classes.jpeg';
 import certificate11 from '../../images/Learn_PHP_Arrays_&_Loops.jpeg';
-import certificate10 from '../../Learn_PHP_Conditionals_&_Logic.jpeg';
+import certificate10 from '../../images/Learn_PHP_Conditionals_&_Logic.jpeg';
 import certificate9 from '../../images/Learn_PHP_Functions.jpeg';
 import certificate8 from '../../images/Learn_PHP_Introduction.jpeg';
 import certificate7 from '../../images/HyperionDev_Endorsed_DFE_Web_Development.jpeg';
