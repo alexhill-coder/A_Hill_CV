@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/A_Hill_CV/static/css/main.7862ae96.css",
-    "main.js": "/A_Hill_CV/static/js/main.5968c9a2.js",
+    "main.js": "/A_Hill_CV/static/js/main.bf3de654.js",
     "static/js/787.557f5518.chunk.js": "/A_Hill_CV/static/js/787.557f5518.chunk.js",
     "static/media/portrait.png": "/A_Hill_CV/static/media/portrait.587f127dc55add39b3c2.png",
     "static/media/Learn_Node-SQLite.jpeg": "/A_Hill_CV/static/media/Learn_Node-SQLite.c3df60d2cc711fcdf6cf.jpeg",
@@ -21,13 +21,14 @@
     "static/media/reading_data_from_apis.jpeg": "/A_Hill_CV/static/media/reading_data_from_apis.597179379ba2b9133cef.jpeg",
     "static/media/HyperionDev_Endorsed_DFE_Web_Development.jpeg": "/A_Hill_CV/static/media/HyperionDev_Endorsed_DFE_Web_Development.4edcfbc432375cb9b5b9.jpeg",
     "static/media/python_programming.jpg": "/A_Hill_CV/static/media/python_programming.e4630eb2e4c0eea43268.jpg",
+    "static/media/php-logo-transparent-3.png": "/A_Hill_CV/static/media/php-logo-transparent-3.1eed181aa6fa6635c08d.png",
     "index.html": "/A_Hill_CV/index.html",
     "main.7862ae96.css.map": "/A_Hill_CV/static/css/main.7862ae96.css.map",
-    "main.5968c9a2.js.map": "/A_Hill_CV/static/js/main.5968c9a2.js.map",
+    "main.bf3de654.js.map": "/A_Hill_CV/static/js/main.bf3de654.js.map",
     "787.557f5518.chunk.js.map": "/A_Hill_CV/static/js/787.557f5518.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7862ae96.css",
-    "static/js/main.5968c9a2.js"
+    "static/js/main.bf3de654.js"
   ]
 }
