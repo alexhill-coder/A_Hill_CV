@@ -1,22 +1,33 @@
 {
   "files": {
     "main.css": "/A_Hill_CV/static/css/main.7862ae96.css",
-    "main.js": "/A_Hill_CV/static/js/main.17e78180.js",
+    "main.js": "/A_Hill_CV/static/js/main.5109001f.js",
     "static/js/787.557f5518.chunk.js": "/A_Hill_CV/static/js/787.557f5518.chunk.js",
     "static/media/portrait.png": "/A_Hill_CV/static/media/portrait.587f127dc55add39b3c2.png",
+    "static/media/Learn_Node-SQLite.jpeg": "/A_Hill_CV/static/media/Learn_Node-SQLite.c3df60d2cc711fcdf6cf.jpeg",
+    "static/media/Learn_PHP_Arrays_&_Loops.jpeg": "/A_Hill_CV/static/media/Learn_PHP_Arrays_&_Loops.f53a6e66830fa7c073bf.jpeg",
+    "static/media/Learn_PHP_Conditionals_&_Logic.jpeg": "/A_Hill_CV/static/media/Learn_PHP_Conditionals_&_Logic.aa9e34b0193dac74612f.jpeg",
+    "static/media/Learn_Intermediate_PHP.jpeg": "/A_Hill_CV/static/media/Learn_Intermediate_PHP.5a9d26f9ba6e28395c80.jpeg",
+    "static/media/Learn_PHP_Form_Handling.jpeg": "/A_Hill_CV/static/media/Learn_PHP_Form_Handling.f7aa8d6045a035225a59.jpeg",
+    "static/media/Learn_PHP_Introduction.jpeg": "/A_Hill_CV/static/media/Learn_PHP_Introduction.a64b0489c0fcf47e892e.jpeg",
+    "static/media/Learn_PHP_Objects_&_Classes.jpeg": "/A_Hill_CV/static/media/Learn_PHP_Objects_&_Classes.5ea58ced3f715cebd998.jpeg",
+    "static/media/Learn_PHP_Functions.jpeg": "/A_Hill_CV/static/media/Learn_PHP_Functions.f58291eb7bf0196654a5.jpeg",
+    "static/media/Learn_SQL_Certificate.jpeg": "/A_Hill_CV/static/media/Learn_SQL_Certificate.4a40548f8eb98471c6dc.jpeg",
+    "static/media/Learn_PHP_Multi_Course.jpeg": "/A_Hill_CV/static/media/Learn_PHP_Multi_Course.bc69d97bff43cacbc841.jpeg",
     "static/media/intro_to_object_python.jpeg": "/A_Hill_CV/static/media/intro_to_object_python.0358037f949525f7d8be.jpeg",
     "static/media/web_scraping.jpeg": "/A_Hill_CV/static/media/web_scraping.c5f90724d7bd9d77377d.jpeg",
     "static/media/kivy_app.jpeg": "/A_Hill_CV/static/media/kivy_app.eb3b49897afc8a47f7f7.jpeg",
     "static/media/first_responsive_website.jpeg": "/A_Hill_CV/static/media/first_responsive_website.1d542d6d7424489dbd92.jpeg",
     "static/media/reading_data_from_apis.jpeg": "/A_Hill_CV/static/media/reading_data_from_apis.597179379ba2b9133cef.jpeg",
+    "static/media/HyperionDev_Endorsed_DFE_Web_Development.jpeg": "/A_Hill_CV/static/media/HyperionDev_Endorsed_DFE_Web_Development.4edcfbc432375cb9b5b9.jpeg",
     "static/media/python_programming.jpg": "/A_Hill_CV/static/media/python_programming.e4630eb2e4c0eea43268.jpg",
     "index.html": "/A_Hill_CV/index.html",
     "main.7862ae96.css.map": "/A_Hill_CV/static/css/main.7862ae96.css.map",
-    "main.17e78180.js.map": "/A_Hill_CV/static/js/main.17e78180.js.map",
+    "main.5109001f.js.map": "/A_Hill_CV/static/js/main.5109001f.js.map",
     "787.557f5518.chunk.js.map": "/A_Hill_CV/static/js/787.557f5518.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7862ae96.css",
-    "static/js/main.17e78180.js"
+    "static/js/main.5109001f.js"
   ]
 }
