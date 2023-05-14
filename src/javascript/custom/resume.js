@@ -1,5 +1,17 @@
 // As providing the image source directly causes it to fail the only way to provide any local picture is to import them. 
 // They are imported here as they can be inserted into the details object and called without any problems when needed.
+
+import certificate17 from '../../images/Learn_Intermediate_PHP.jpeg';
+import certificate16 from '../../images/Learn_Node-SQLite.jpeg';
+import certificate15 from '../../images/Learn_SQL_Certificate.jpeg';
+import certificate14 from '../../images/Learn_PHP_Multi_Course.jpeg';
+import certificate13 from '../../images/Learn_PHP_Form_Handling.jpeg';
+import certificate12 from '../../images/Learn_PHP_Objects_&_Classes.jpeg';
+import certificate11 from '../../images/Learn_PHP_Arrays_&_Loops.jpeg';
+import certificate10 from '../../Learn_PHP_Conditionals_&_Logic.jpeg';
+import certificate9 from '../../images/Learn_PHP_Functions.jpeg';
+import certificate8 from '../../images/Learn_PHP_Introduction.jpeg';
+import certificate7 from '../../images/HyperionDev_Endorsed_DFE_Web_Development.jpeg';
 import certificate6 from '../../images/first_responsive_website.jpeg';
 import certificate5 from '../../images/kivy_app.jpeg';
 import certificate4 from '../../images/reading_data_from_apis.jpeg';
@@ -175,8 +187,96 @@ const resumeDetails = {
         "content": "Create basic websites using web development languages such as HTML, CSS and PHP."
       }]   
     }],
-    "certificates": [{
-        "id": "C1",
+      "certificates": [{
+        "id": "C17",
+        "name": "Learn Intermediate PHP Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate17,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/265bef867da9492fb4bb193cc0841f99"
+      },
+      {
+        "id": "C16",
+        "name": "Learn Node-SQLite Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate16,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/f0257b235b081aca2766010aad2df800"
+      },
+      {
+        "id": "C15",
+        "name": "Learn SQL Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate15,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/042a4e5884e3eb6ea1f2a12be6abb851"
+      },
+      {
+        "id": "C14",
+        "name": "Learn PHP Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate14,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/d24ce3aa4ed99ac04afffec4a78e2e44"
+      },
+      {
+        "id": "C13",
+        "name": "Learn PHP: Form Handling and Validation Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate13,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/df254d87a49d4b359764937e065e6fcc"
+      },
+      {
+        "id": "C12",
+        "name": "Learn PHP: Objects and Classes Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate12,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/549326eb43224f97af6886080354a5d9"
+      },
+      {
+        "id": "C11",
+        "name": "Learn PHP: Arrays and Loops Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate11,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/798f0287cb44476db8e2a21b635cac92"
+      },
+      {
+        "id": "C10",
+        "name": "Learn PHP: Conditionals and Logic Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate10,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/62f12d63d6b44044aab18555ddf3022a"
+      },
+      {
+        "id": "C9",
+        "name": "Learn PHP: Functions Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate9,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/dc28cb2f4158446e9db7ec820a3dd839"
+      },
+      {
+        "id": "C8",
+        "name": "Learn PHP: Introduction Course",
+        "date": "March 2023",
+        "issuer": "Codecademy",
+        "url": certificate8,
+        "webAddress": "https://www.codecademy.com/profiles/alexhill-coder/certificates/167925f179f648e8abbaedbdf5b43091"
+      },
+      {
+        "id": "C7",
+        "name": "DFE Web Development Bootcamp",
+        "date": "February 2023",
+        "issuer": "HyperionDev",
+        "url": certificate7,
+        "webAddress": "https://www.hyperiondev.com/certificate/1321/certificate-of-completion?intent=view"
+      },
+      {
+        "id": "C6",
         "name": "Create Your First Responsive Website",
         "date": "October 2022",
         "issuer": "Zenva",
@@ -184,7 +284,7 @@ const resumeDetails = {
         "webAddress": "https://academy.zenva.com/certificate/277e5272438a"
       },
       {
-        "id": "C2",
+        "id": "C5",
         "name": "The Complete Kivy App Development Course",
         "date": "October 2022",
         "issuer": "Zenva",
@@ -192,7 +292,7 @@ const resumeDetails = {
         "webAddress": "https://academy.zenva.com/certificate/c739545a01c7"
       },
       {
-        "id": "C3",
+        "id": "C4",
         "name": "Reading Data from APIs with Python",
         "date": "August 2022",
         "issuer": "Zenva",
@@ -200,7 +300,7 @@ const resumeDetails = {
         "webAddress": "https://academy.zenva.com/certificate/1b417058856c"
       },
       {
-        "id": "C4",
+        "id": "C3",
         "name": "Web Scraping with Python and BeautifulSoup",
         "date": "August 2022",
         "issuer": "Zenva",
@@ -208,7 +308,7 @@ const resumeDetails = {
         "webAddress": "https://academy.zenva.com/certificate/e236057da86b"
       },
       {
-        "id": "C5",
+        "id": "C2",
         "name": "PYTHON PROGRAMMING: BEGINNER TO EXPERT",
         "date": "July 2022",
         "issuer": "One Education",
@@ -216,12 +316,12 @@ const resumeDetails = {
         "webAddress": "https://www.oneeducation.org.uk/certificates/certificate-2-2/?c=406780&u=238360"
       },
       {
-        "id": "C6",
+        "id": "C1",
         "name": "Intro to Object-Oriented Programming with Python",
         "date": "May 2022",
         "issuer": "Zenva",
         "url": certificate1,
-        "webAddress": "Intro to Object-Oriented Programming with Python"
+        "webAddress": "https://academy.zenva.com/certificate/400e851cd8e0"
       }],
     "skills": [
       {
@@ -265,6 +365,12 @@ const resumeDetails = {
         "source": "https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png",
         "alt": "redux logo",
         "name": "Redux"
+      },
+      {
+        "id": "S16",
+        "source": "http://clipart-library.com/images_k/php-logo-transparent/php-logo-transparent-3.png",
+        "alt": "php logo",
+        "name": "PHP"
       },
       {
         "id": "S8",
