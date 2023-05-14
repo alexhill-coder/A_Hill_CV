@@ -18,6 +18,7 @@ import certificate4 from '../../images/reading_data_from_apis.jpeg';
 import certificate3 from '../../images/web_scraping.jpeg';
 import certificate2 from '../../images/python_programming.jpg';
 import certificate1 from '../../images/intro_to_object_python.jpeg';
+import phpLogo from '../../images/php-logo-transparent-3.png';
 
 // This object provides the full details of my resume allowing for each item to be used when and as needed. 
 const resumeDetails = {
@@ -368,7 +369,7 @@ const resumeDetails = {
       },
       {
         "id": "S16",
-        "source": "http://clipart-library.com/images_k/php-logo-transparent/php-logo-transparent-3.png",
+        "source": phpLogo,
         "alt": "php logo",
         "name": "PHP"
       },
